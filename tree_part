@@ -5,15 +5,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 /**
- *
- * @author Yixin Cao (November 1, 2022)
- *
- * A binary search tree for Polyu students.
- *
- * !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
- * Update on November 8: fix a bug in the main method.
- * !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
- *
  * Since we only store students, the class doesn't use generics.
  *
  */
@@ -56,20 +47,6 @@ public class PolyuTree_20099185d_mengguanlin { // Please change!
     /**
      * Insert a new student into the tree.
      *
-     * VERY IMPORTANT.
-     *
-     * I've discussed this question with the following students:
-     *     1.
-     *     2.
-     *     3.
-     *     ...
-     *
-     * I've sought help from the following Internet resources and books:
-     *     1.
-     *     2.
-     *     3.
-     *     ...
-     *
      * Running time: O(n ). A function of d and n.
      */
     public Node insert1(Node root,Student s){
@@ -93,20 +70,6 @@ public class PolyuTree_20099185d_mengguanlin { // Please change!
     /**
      * Calculate the largest difference between the depths of the two subtrees of a node.
      *
-     * VERY IMPORTANT.
-     *
-     * I've discussed this question with the following students:
-     *     1.
-     *     2.
-     *     3.
-     *     ...
-     *
-     * I've sought help from the following Internet resources and books:
-     *     1.
-     *     2.
-     *     3.
-     *     ...
-     *
      * Running time: O( n). A function of d and n.
      *
      */
@@ -124,20 +87,6 @@ public class PolyuTree_20099185d_mengguanlin { // Please change!
 
     /**
      * Calculate the largest difference between the sizes of the two subtrees of a node.
-     *
-     * VERY IMPORTANT.
-     *
-     * I've discussed this question with the following students:
-     *     1.
-     *     2.
-     *     3.
-     *     ...
-     *
-     * I've sought help from the following Internet resources and books:
-     *     1.
-     *     2.
-     *     3.
-     *     ...
      *
      * Running time: O(n ). A function of d and n.
      *
@@ -218,22 +167,6 @@ public class PolyuTree_20099185d_mengguanlin { // Please change!
 
 
     /*
-     * Find a student with the specified name.
-     * You may return any of them if there are multiple students of this name.
-     *
-     * VERY IMPORTANT.
-     *
-     * I've discussed this question with the following students:
-     *     1.
-     *     2.
-     *     3.
-     *     ...
-     *
-     * I've sought help from the following Internet resources and books:
-     *     1.
-     *     2.
-     *     3.
-     *     ...
      *
      * Running time: O(d ). A function of d and n.
      */
@@ -261,20 +194,6 @@ public class PolyuTree_20099185d_mengguanlin { // Please change!
      * Find all students with the specified surname.
      * Consider the first word as the surname.
      * Warning: Make sure "Liu Dennis" does not show when you search "Li."
-     *
-     * VERY IMPORTANT.
-     *
-     * I've discussed this question with the following students:
-     *     1.
-     *     2.
-     *     3.
-     *     ...
-     *
-     * I've sought help from the following Internet resources and books:
-     *     1.
-     *     2.
-     *     3.
-     *     ...
      *
      * Running time: O(n ). A function of d and n.
      * if(T==null){
@@ -374,20 +293,6 @@ public class PolyuTree_20099185d_mengguanlin { // Please change!
     /*
      * Find all students who are taking a certain class.
      * The input is an array of student names.
-     *
-     * VERY IMPORTANT.
-     *
-     * I've discussed this question with the following students:
-     *     1.
-     *     2.
-     *     3.
-     *     ...
-     *
-     * I've sought help from the following Internet resources and books:
-     *     1.
-     *     2.
-     *     3.
-     *     ...
      *
      * Running time: O( cn). A function of d, n, and c.
      */
